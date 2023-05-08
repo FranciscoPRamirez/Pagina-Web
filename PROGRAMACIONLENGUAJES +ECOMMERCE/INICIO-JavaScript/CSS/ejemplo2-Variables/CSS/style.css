@@ -1,0 +1,25 @@
+/*
+efectos que nos ofrece sweetAlert, entre otros
+1.fondo
+2.Ventana
+3. pie de página
+*/
+. swal-superposición {
+    color de fondo :  rgba ( 23 ,  24 ,  24 ,  0,45 );
+  }
+  . swal-modal {
+    color de fondo : gainsboro;
+    borde :  2 px sólido rgb ( 69 ,  176 ,  94 );
+    borde-radio :  25 px ;
+  }
+  . swal-pie de página {
+    borde superior :  1 px negro sólido;
+  }
+  h2 {
+    alineación de texto : centro;
+    color : carmesí;
+    tamaño de fuente : más grande;
+    fuente-peso : negrita;
+   
+  }
+  

@@ -1,0 +1,14 @@
+/*
+El selector #, asociado en html como un id
+*/
+#resultado{
+    text-align: center;
+    margin: 0 auto ; 
+    font-size: larger;
+    font-weight: bold;
+    color: #201987;
+    text-shadow: 1px 3px 6px rgb(130, 121, 121);
+    
+    width: 160px;
+    border-radius: 6px;
+    }

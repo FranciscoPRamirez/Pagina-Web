@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        header {
+            text-align: center;
+        }
+
+        h1{
+            color: rgb(20, 20, 20);
+        }
+
+        .textofondo {
+            margin: auto;
+            width: 20%;
+        }
+
+        body {
+            background-image: url(images/boladelmundo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(17, 17, 16);
+        }
+        header {
+            text-align: center;
+        }
+
+        h2{
+            color: rgb(20, 20, 20);
+        }
+
+        .textofondo {
+            margin: auto;
+            width: 5%;
+        }
+
+        body {
+            background-image: url(images/boladelmundo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(17, 17, 16);
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><h1>Solicitud de Matricula</h1></a>
+    </header>
+    <main>
+        <fieldset>
+            <label>Nombre</label>
+            <input type="text" size="30" maxlength="" id="nombre_h" name="nombre">
+            <br></br>
+            <label>Apellidos</label>
+            <input type="text" size="30" maxlength="" id="ubicacion" name="ubicacion">
+            <br></br>
+            <label>Teléfono</label>
+            <input type="text" size="30" maxlength="" id="ubicacion" name="ubicacion">
+            <br></br>
+            <label>Email</label>
+            <input type="text" size="30" maxlength="" id="ubicacion" name="ubicacion">
+            <br></br>
+            <label>Dirección</label>
+            <input type="text" size="30" maxlength="" id="ubicacion" name="ubicacion">
+            <br></br>
+            <label>Población</label>
+            <select name="Poblacion" id="Poblacion">
+                <option value="Madrid">Madrid</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Barcelona">Barcelona</option>
+            </select>
+            <br></br>
+            <label>Tipo de Evento</label>
+            <input type="radio" name="ciclo" value="ciclogusta">
+            Bootstrap
+            <input type="radio" name="ciclo" value="ciclogusta">
+            Desarrollo Angular
+            <input type="radio" name="ciclo" value="ciclogusta">
+            Otros
+            <br></br>
+            <textarea rows="5" cols="57">Coméntanos tu idea:</textarea>
+            <br></br>
+            <label>Puedes adjuntar una Foto </label><input type="file">
+            <br></br>
+            <label>.</label><input type="submit">            
+            <a href="./index.html"><h2>Cerrar</h2></a>                  
+        </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
